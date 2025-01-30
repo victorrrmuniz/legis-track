@@ -1,4 +1,6 @@
 
+using LegisTrack.Services;
+
 namespace LegisTrack
 {
     public class Program
@@ -6,6 +8,8 @@ namespace LegisTrack
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+
+            builder.Services.AddScoped<IBillService, BillService>();
 
             // Add services to the container.
 

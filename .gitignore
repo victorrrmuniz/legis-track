@@ -1,0 +1,10 @@
+LegisTrack/.vs/Legistrack
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.cache
+*.exe
+*.dll
+*.AssemblyInfoInputs.cache
