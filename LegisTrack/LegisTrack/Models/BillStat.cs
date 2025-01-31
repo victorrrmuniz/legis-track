@@ -1,6 +1,6 @@
 ﻿namespace LegisTrack.Models
 {
-    public class BillVote
+    public class BillStat
     {
         public long Id { get; set; }
         public string BillName { get; set; }

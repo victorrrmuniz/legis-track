@@ -9,15 +9,15 @@ namespace LegisTrack.Services
 {
     public class BillService : IBillService
     {
-        public IEnumerable<LegislatorVote> GetLegislatorBillStatis()
+        public IEnumerable<LegislatorStat> GetLegislatorBillStatis()
         {
             var votesResult = GetVoteResults();
             var legislators = GetLegislators();
 
             var legislatorVotes = votesResult.GroupBy(v => v.LegislatorId)
-                .Select(v => new LegislatorVote
+                .Select(v => new LegislatorStat
                 {
-                    LegislatorId = v.Key,
+                    Id = v.Key,
                     LegislatorName = legislators.FirstOrDefault(l => l.Id == v.Key)?.Name,
                     Support = v.Count(c => c.VoteType == 1),
                     Oppose = v.Count(c => c.VoteType == 2)
@@ -26,7 +26,7 @@ namespace LegisTrack.Services
             return legislatorVotes;
         }
 
-        public IEnumerable<BillVote> GetBillSupportStats()
+        public IEnumerable<BillStat> GetBillSupportStats()
         {
             var voteResult = GetVoteResults();
             var votes = GetVotes();
@@ -38,7 +38,7 @@ namespace LegisTrack.Services
                 v => v.Id,
                 (vr, v) => new { v.BillId, vr.VoteType })
             .GroupBy(v => v.BillId)
-            .Select(b => new BillVote
+            .Select(b => new BillStat
             {
                 Id = b.Key,
                 BillName = bills.FirstOrDefault(bill => bill.Id == b.Key)?.Title,
