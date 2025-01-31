@@ -16,19 +16,19 @@ namespace LegisTrack.Controllers
         }
 
         [HttpGet]
-        [Route("legislator/{legislatorId}")]
-        public IActionResult GetLegislatorBillSupportStats(long legislatorId)
+        [Route("legislator")]
+        public IActionResult GetLegislatorBillSupportStats()
         {
-            var result = _billService.GetLegislatorBillStatis(legislatorId);
+            var result = _billService.GetLegislatorBillStatis();
 
             return Ok(result);
         }
 
         [HttpGet]
-        [Route("bill/{billId}")]
-        public IActionResult GetBillSupportStats(long billId)
+        [Route("bill")]
+        public IActionResult GetBillSupportStats()
         {
-            var result = _billService.GetBillSupportStats(billId);
+            var result = _billService.GetBillSupportStats();
 
             return Ok(result);
         }

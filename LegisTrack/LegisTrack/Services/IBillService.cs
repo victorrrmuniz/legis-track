@@ -1,8 +1,10 @@
-﻿namespace LegisTrack.Services
+﻿using LegisTrack.Models;
+
+namespace LegisTrack.Services
 {
     public interface IBillService
     {
-        long GetLegislatorBillStatis(long legislatorId);
-        long GetBillSupportStats(long billId);
+        IEnumerable<LegislatorVote> GetLegislatorBillStatis();
+        IEnumerable<BillVote> GetBillSupportStats();
     }
 }

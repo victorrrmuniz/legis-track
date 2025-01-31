@@ -1,12 +1,94 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\victo\\OneDrive\\Documentos\\ProcessosSeletivos\\Quorum\\LegisTrack\\LegisTrack\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D72A975A-987D-444A-90E6-A50C5DA10812}|LegisTrack\\LegisTrack.csproj|c:\\users\\victo\\onedrive\\documentos\\processosseletivos\\quorum\\legistrack\\legistrack\\legistrack\\services\\billservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D72A975A-987D-444A-90E6-A50C5DA10812}|LegisTrack\\LegisTrack.csproj|solutionrelative:legistrack\\services\\billservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D72A975A-987D-444A-90E6-A50C5DA10812}|LegisTrack\\LegisTrack.csproj|c:\\users\\victo\\onedrive\\documentos\\processosseletivos\\quorum\\legistrack\\legistrack\\legistrack\\services\\ibillservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D72A975A-987D-444A-90E6-A50C5DA10812}|LegisTrack\\LegisTrack.csproj|solutionrelative:legistrack\\services\\ibillservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D72A975A-987D-444A-90E6-A50C5DA10812}|LegisTrack\\LegisTrack.csproj|c:\\users\\victo\\onedrive\\documentos\\processosseletivos\\quorum\\legistrack\\legistrack\\legistrack\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D72A975A-987D-444A-90E6-A50C5DA10812}|LegisTrack\\LegisTrack.csproj|solutionrelative:legistrack\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D72A975A-987D-444A-90E6-A50C5DA10812}|LegisTrack\\LegisTrack.csproj|c:\\users\\victo\\onedrive\\documentos\\processosseletivos\\quorum\\legistrack\\legistrack\\legistrack\\controllers\\billcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D72A975A-987D-444A-90E6-A50C5DA10812}|LegisTrack\\LegisTrack.csproj|solutionrelative:legistrack\\controllers\\billcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\victo\\OneDrive\\Documentos\\ProcessosSeletivos\\Quorum\\LegisTrack\\LegisTrack\\LegisTrack\\Program.cs",
+              "RelativeDocumentMoniker": "LegisTrack\\Program.cs",
+              "ToolTip": "C:\\Users\\victo\\OneDrive\\Documentos\\ProcessosSeletivos\\Quorum\\LegisTrack\\LegisTrack\\LegisTrack\\Program.cs",
+              "RelativeToolTip": "LegisTrack\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T18:27:19.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BillController.cs",
+              "DocumentMoniker": "C:\\Users\\victo\\OneDrive\\Documentos\\ProcessosSeletivos\\Quorum\\LegisTrack\\LegisTrack\\LegisTrack\\Controllers\\BillController.cs",
+              "RelativeDocumentMoniker": "LegisTrack\\Controllers\\BillController.cs",
+              "ToolTip": "C:\\Users\\victo\\OneDrive\\Documentos\\ProcessosSeletivos\\Quorum\\LegisTrack\\LegisTrack\\LegisTrack\\Controllers\\BillController.cs",
+              "RelativeToolTip": "LegisTrack\\Controllers\\BillController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T18:26:11.241Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IBillService.cs",
+              "DocumentMoniker": "C:\\Users\\victo\\OneDrive\\Documentos\\ProcessosSeletivos\\Quorum\\LegisTrack\\LegisTrack\\LegisTrack\\Services\\IBillService.cs",
+              "RelativeDocumentMoniker": "LegisTrack\\Services\\IBillService.cs",
+              "ToolTip": "C:\\Users\\victo\\OneDrive\\Documentos\\ProcessosSeletivos\\Quorum\\LegisTrack\\LegisTrack\\LegisTrack\\Services\\IBillService.cs",
+              "RelativeToolTip": "LegisTrack\\Services\\IBillService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T20:52:35.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BillService.cs",
+              "DocumentMoniker": "C:\\Users\\victo\\OneDrive\\Documentos\\ProcessosSeletivos\\Quorum\\LegisTrack\\LegisTrack\\LegisTrack\\Services\\BillService.cs",
+              "RelativeDocumentMoniker": "LegisTrack\\Services\\BillService.cs",
+              "ToolTip": "C:\\Users\\victo\\OneDrive\\Documentos\\ProcessosSeletivos\\Quorum\\LegisTrack\\LegisTrack\\LegisTrack\\Services\\BillService.cs",
+              "RelativeToolTip": "LegisTrack\\Services\\BillService.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwD4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T19:12:37.921Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
