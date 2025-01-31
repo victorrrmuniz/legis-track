@@ -26,14 +26,13 @@ export const ContentContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 32px;
-  margin-bottom: 32px;
+  gap: 64px;
+  margin-bottom: 64px;
 
   div {
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
 `
 
