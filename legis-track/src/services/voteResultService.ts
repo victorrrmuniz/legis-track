@@ -10,7 +10,7 @@ const api = axios.create({
 
 const getLegislatorBillSupportStats = async () => {
   try {
-    const response = await api.get('/bill/legislator');
+    const response = await api.get('/bill/legislator-stats');
     return response.data;
   } catch (error) {
     console.error("Ocorreu um erro na requisição: ", error)
@@ -19,7 +19,7 @@ const getLegislatorBillSupportStats = async () => {
 
 const getBillSupportStats = async () => {
   try {
-    const response = await api.get('/bill/bill');
+    const response = await api.get('/bill/bill-stats');
     return response.data;
   } catch (error) {
     console.error("Ocorreu um erro na requisição: ", error);

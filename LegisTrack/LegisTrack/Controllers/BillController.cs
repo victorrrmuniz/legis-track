@@ -16,7 +16,7 @@ namespace LegisTrack.Controllers
         }
 
         [HttpGet]
-        [Route("legislator")]
+        [Route("legislator-stats")]
         public IActionResult GetLegislatorBillSupportStats()
         {
             var result = _billService.GetLegislatorBillStats();
@@ -25,7 +25,7 @@ namespace LegisTrack.Controllers
         }
 
         [HttpGet]
-        [Route("bill")]
+        [Route("bill-stats")]
         public IActionResult GetBillSupportStats()
         {
             var result = _billService.GetBillSupportStats();
