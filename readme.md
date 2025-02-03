@@ -20,6 +20,8 @@ Project for the Quorum Coding Challenge
 
 - npm run dev
 
+- the project will run in http://localhost:5173/
+
 ### Backend
 - dotnet build
 
