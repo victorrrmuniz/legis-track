@@ -28,7 +28,7 @@ export const LegisTrack = () => {
   return (
     <MainContainer>
       <TitleContainer>
-        <h1>LegisTrack</h1>
+        <h1>LEGISTRACK</h1>
       </TitleContainer>
 
       <ContentContainer>

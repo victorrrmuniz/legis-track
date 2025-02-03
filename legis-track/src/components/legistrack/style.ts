@@ -10,14 +10,19 @@ export const MainContainer = styled.div`
 export const TitleContainer = styled.div`
   width: 100%;
   margin: 0 auto;
-  color: #dfdfdf;
-  background-color: #281c54;
-  padding: 16px 0;
-  letter-spacing: 2px;
-  font-size: 1.5rem;
+  background: linear-gradient(135deg, #2e1a6f, #281c54);
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.2);
+  border-bottom: 3px solid #c2a1ff;
 
   h1 {
-    text-align: center;
+    color: #ffffff;
+    font-size: 1.75rem;
+    font-weight: bold;
+    letter-spacing: 2px;
   }
 `
 
