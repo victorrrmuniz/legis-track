@@ -1,4 +1,5 @@
 
+using LegisTrack.Repositories;
 using LegisTrack.Services;
 
 namespace LegisTrack
@@ -18,6 +19,8 @@ namespace LegisTrack
             });
 
             builder.Services.AddScoped<IBillService, BillService>();
+
+            builder.Services.AddScoped<ICsvRepository, CsvRepository>();
 
             // Add services to the container.
 

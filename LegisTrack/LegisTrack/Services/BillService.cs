@@ -1,18 +1,25 @@
 ﻿
 
 using System.Globalization;
-using System.IO;
 using CsvHelper;
 using LegisTrack.Models;
+using LegisTrack.Repositories;
 
 namespace LegisTrack.Services
 {
     public class BillService : IBillService
     {
+        private readonly ICsvRepository _csvRepository;
+
+        public BillService(ICsvRepository csvRepository)
+        {
+            _csvRepository = csvRepository;
+        }
+
         public IEnumerable<LegislatorStat> GetLegislatorBillStatis()
         {
-            var votesResult = GetVoteResults();
-            var legislators = GetLegislators();
+            var votesResult = _csvRepository.GetVoteResults();
+            var legislators = _csvRepository.GetLegislators();
 
             var legislatorVotes = votesResult.GroupBy(v => v.LegislatorId)
                 .Select(v => new LegislatorStat
@@ -28,10 +35,10 @@ namespace LegisTrack.Services
 
         public IEnumerable<BillStat> GetBillSupportStats()
         {
-            var voteResult = GetVoteResults();
-            var votes = GetVotes();
-            var bills = GetBills();
-            var legislators = GetLegislators();
+            var voteResult = _csvRepository.GetVoteResults();
+            var votes = _csvRepository.GetVotes();
+            var bills = _csvRepository.GetBills();
+            var legislators = _csvRepository.GetLegislators();
 
             var billVotes = voteResult.Join(votes,
                 vr => vr.VoteId,
@@ -48,46 +55,6 @@ namespace LegisTrack.Services
             });
 
             return billVotes;
-        }
-
-        private List<VoteResult> GetVoteResults()
-        {
-            string path = "Data/vote_results.csv";
-            using (var reader = new StreamReader(path))
-            using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
-            {
-                return csv.GetRecords<VoteResult>().ToList();
-            }
-        }
-
-        private List<Legislator> GetLegislators()
-        {
-            string path = "Data/legislators.csv";
-            using (var reader = new StreamReader(path))
-            using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
-            {
-                return csv.GetRecords<Legislator>().ToList();
-            }
-        }
-
-        private List<Bill> GetBills()
-        {
-            string path = "Data/bills.csv";
-            using (var reader = new StreamReader(path))
-            using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
-            {
-                return csv.GetRecords<Bill>().ToList();
-            }
-        }
-
-        private List<Vote> GetVotes()
-        {
-            string path = "Data/votes.csv";
-            using (var reader = new StreamReader(path))
-            using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
-            {
-                return csv.GetRecords<Vote>().ToList();
-            }
         }
     }
 }
