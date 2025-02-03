@@ -19,7 +19,7 @@ namespace LegisTrack.Controllers
         [Route("legislator")]
         public IActionResult GetLegislatorBillSupportStats()
         {
-            var result = _billService.GetLegislatorBillStatis();
+            var result = _billService.GetLegislatorBillStats();
 
             return Ok(result);
         }

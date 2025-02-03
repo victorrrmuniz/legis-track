@@ -1,7 +1,6 @@
 ﻿
 
-using System.Globalization;
-using CsvHelper;
+using LegisTrack.Enums;
 using LegisTrack.Models;
 using LegisTrack.Repositories;
 
@@ -16,7 +15,7 @@ namespace LegisTrack.Services
             _csvRepository = csvRepository;
         }
 
-        public IEnumerable<LegislatorStat> GetLegislatorBillStatis()
+        public IEnumerable<LegislatorStat> GetLegislatorBillStats()
         {
             var votesResult = _csvRepository.GetVoteResults();
             var legislators = _csvRepository.GetLegislators();
@@ -26,8 +25,8 @@ namespace LegisTrack.Services
                 {
                     Id = v.Key,
                     LegislatorName = legislators.FirstOrDefault(l => l.Id == v.Key)?.Name,
-                    Support = v.Count(c => c.VoteType == 1),
-                    Oppose = v.Count(c => c.VoteType == 2)
+                    Support = v.Count(c => c.VoteType == VoteTypeEnum.Yes),
+                    Oppose = v.Count(c => c.VoteType == VoteTypeEnum.No)
                 });
 
             return legislatorVotes;
@@ -50,8 +49,8 @@ namespace LegisTrack.Services
                 Id = b.Key,
                 BillName = bills.FirstOrDefault(bill => bill.Id == b.Key)?.Title,
                 SponsorName = legislators.FirstOrDefault(l => l.Id == bills.FirstOrDefault(bill => bill.Id == b.Key)?.SponsorId)?.Name,
-                Supporters = b.Count(v => v.VoteType == 1),
-                Opposers = b.Count(v => v.VoteType == 2)
+                Supporters = b.Count(v => v.VoteType == VoteTypeEnum.Yes),
+                Opposers = b.Count(v => v.VoteType == VoteTypeEnum.No)
             });
 
             return billVotes;

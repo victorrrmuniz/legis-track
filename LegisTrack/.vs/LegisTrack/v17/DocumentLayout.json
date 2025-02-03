@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\victo\\OneDrive\\Documentos\\ProcessosSeletivos\\Quorum\\LegisTrack\\LegisTrack\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D72A975A-987D-444A-90E6-A50C5DA10812}|LegisTrack\\LegisTrack.csproj|c:\\users\\victo\\onedrive\\documentos\\processosseletivos\\quorum\\legistrack\\legistrack\\legistrack\\services\\billservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D72A975A-987D-444A-90E6-A50C5DA10812}|LegisTrack\\LegisTrack.csproj|solutionrelative:legistrack\\services\\billservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D72A975A-987D-444A-90E6-A50C5DA10812}|LegisTrack\\LegisTrack.csproj|c:\\users\\victo\\onedrive\\documentos\\processosseletivos\\quorum\\legistrack\\legistrack\\legistrack\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D72A975A-987D-444A-90E6-A50C5DA10812}|LegisTrack\\LegisTrack.csproj|solutionrelative:legistrack\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34D736B4-8411-4188-B388-C257573F3B40}|LegisTrackTests\\LegisTrackTests.csproj|c:\\users\\victo\\onedrive\\documentos\\processosseletivos\\quorum\\legistrack\\legistrack\\legistracktests\\repositories\\csvrepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34D736B4-8411-4188-B388-C257573F3B40}|LegisTrackTests\\LegisTrackTests.csproj|solutionrelative:legistracktests\\repositories\\csvrepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D72A975A-987D-444A-90E6-A50C5DA10812}|LegisTrack\\LegisTrack.csproj|c:\\users\\victo\\onedrive\\documentos\\processosseletivos\\quorum\\legistrack\\legistrack\\legistrack\\repositories\\csvrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D72A975A-987D-444A-90E6-A50C5DA10812}|LegisTrack\\LegisTrack.csproj|solutionrelative:legistrack\\repositories\\csvrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34D736B4-8411-4188-B388-C257573F3B40}|LegisTrackTests\\LegisTrackTests.csproj|c:\\users\\victo\\onedrive\\documentos\\processosseletivos\\quorum\\legistrack\\legistrack\\legistracktests\\billservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34D736B4-8411-4188-B388-C257573F3B40}|LegisTrackTests\\LegisTrackTests.csproj|solutionrelative:legistracktests\\billservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34D736B4-8411-4188-B388-C257573F3B40}|LegisTrackTests\\LegisTrackTests.csproj|c:\\users\\victo\\onedrive\\documentos\\processosseletivos\\quorum\\legistrack\\legistrack\\legistracktests\\services\\billservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34D736B4-8411-4188-B388-C257573F3B40}|LegisTrackTests\\LegisTrackTests.csproj|solutionrelative:legistracktests\\services\\billservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D72A975A-987D-444A-90E6-A50C5DA10812}|LegisTrack\\LegisTrack.csproj|c:\\users\\victo\\onedrive\\documentos\\processosseletivos\\quorum\\legistrack\\legistrack\\legistrack\\repositories\\icsvrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D72A975A-987D-444A-90E6-A50C5DA10812}|LegisTrack\\LegisTrack.csproj|solutionrelative:legistrack\\repositories\\icsvrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D72A975A-987D-444A-90E6-A50C5DA10812}|LegisTrack\\LegisTrack.csproj|c:\\users\\victo\\onedrive\\documentos\\processosseletivos\\quorum\\legistrack\\legistrack\\legistrack\\services\\billservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D72A975A-987D-444A-90E6-A50C5DA10812}|LegisTrack\\LegisTrack.csproj|solutionrelative:legistrack\\services\\billservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D72A975A-987D-444A-90E6-A50C5DA10812}|LegisTrack\\LegisTrack.csproj|c:\\users\\victo\\onedrive\\documentos\\processosseletivos\\quorum\\legistrack\\legistrack\\legistrack\\controllers\\billcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D72A975A-987D-444A-90E6-A50C5DA10812}|LegisTrack\\LegisTrack.csproj|solutionrelative:legistrack\\controllers\\billcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D72A975A-987D-444A-90E6-A50C5DA10812}|LegisTrack\\LegisTrack.csproj|c:\\users\\victo\\onedrive\\documentos\\processosseletivos\\quorum\\legistrack\\legistrack\\legistrack\\models\\voteresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D72A975A-987D-444A-90E6-A50C5DA10812}|LegisTrack\\LegisTrack.csproj|solutionrelative:legistrack\\models\\voteresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,41 +38,54 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\victo\\OneDrive\\Documentos\\ProcessosSeletivos\\Quorum\\LegisTrack\\LegisTrack\\LegisTrack\\Program.cs",
-              "RelativeDocumentMoniker": "LegisTrack\\Program.cs",
-              "ToolTip": "C:\\Users\\victo\\OneDrive\\Documentos\\ProcessosSeletivos\\Quorum\\LegisTrack\\LegisTrack\\LegisTrack\\Program.cs",
-              "RelativeToolTip": "LegisTrack\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABEAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "VoteResult.cs",
+              "DocumentMoniker": "C:\\Users\\victo\\OneDrive\\Documentos\\ProcessosSeletivos\\Quorum\\LegisTrack\\LegisTrack\\LegisTrack\\Models\\VoteResult.cs",
+              "RelativeDocumentMoniker": "LegisTrack\\Models\\VoteResult.cs",
+              "ToolTip": "C:\\Users\\victo\\OneDrive\\Documentos\\ProcessosSeletivos\\Quorum\\LegisTrack\\LegisTrack\\LegisTrack\\Models\\VoteResult.cs",
+              "RelativeToolTip": "LegisTrack\\Models\\VoteResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T13:00:22.441Z",
+              "WhenOpened": "2025-02-03T13:17:54.587Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ICsvRepository.cs",
-              "DocumentMoniker": "C:\\Users\\victo\\OneDrive\\Documentos\\ProcessosSeletivos\\Quorum\\LegisTrack\\LegisTrack\\LegisTrack\\Repositories\\ICsvRepository.cs",
-              "RelativeDocumentMoniker": "LegisTrack\\Repositories\\ICsvRepository.cs",
-              "ToolTip": "C:\\Users\\victo\\OneDrive\\Documentos\\ProcessosSeletivos\\Quorum\\LegisTrack\\LegisTrack\\LegisTrack\\Repositories\\ICsvRepository.cs",
-              "RelativeToolTip": "LegisTrack\\Repositories\\ICsvRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T13:01:03.576Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "BillService.cs",
               "DocumentMoniker": "C:\\Users\\victo\\OneDrive\\Documentos\\ProcessosSeletivos\\Quorum\\LegisTrack\\LegisTrack\\LegisTrack\\Services\\BillService.cs",
               "RelativeDocumentMoniker": "LegisTrack\\Services\\BillService.cs",
               "ToolTip": "C:\\Users\\victo\\OneDrive\\Documentos\\ProcessosSeletivos\\Quorum\\LegisTrack\\LegisTrack\\LegisTrack\\Services\\BillService.cs",
               "RelativeToolTip": "LegisTrack\\Services\\BillService.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAwwFMAAABTAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-30T19:12:37.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CsvRepository.cs",
+              "DocumentMoniker": "C:\\Users\\victo\\OneDrive\\Documentos\\ProcessosSeletivos\\Quorum\\LegisTrack\\LegisTrack\\LegisTrack\\Repositories\\CsvRepository.cs",
+              "RelativeDocumentMoniker": "LegisTrack\\Repositories\\CsvRepository.cs",
+              "ToolTip": "C:\\Users\\victo\\OneDrive\\Documentos\\ProcessosSeletivos\\Quorum\\LegisTrack\\LegisTrack\\LegisTrack\\Repositories\\CsvRepository.cs",
+              "RelativeToolTip": "LegisTrack\\Repositories\\CsvRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T13:00:44.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BillServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\victo\\OneDrive\\Documentos\\ProcessosSeletivos\\Quorum\\LegisTrack\\LegisTrack\\LegisTrackTests\\Services\\BillServiceTests.cs",
+              "RelativeDocumentMoniker": "LegisTrackTests\\Services\\BillServiceTests.cs",
+              "ToolTip": "C:\\Users\\victo\\OneDrive\\Documentos\\ProcessosSeletivos\\Quorum\\LegisTrack\\LegisTrack\\LegisTrackTests\\Services\\BillServiceTests.cs",
+              "RelativeToolTip": "LegisTrackTests\\Services\\BillServiceTests.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAOoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T12:47:38.461Z",
               "EditorCaption": ""
             }
           ]
@@ -79,28 +96,28 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CsvRepository.cs",
-              "DocumentMoniker": "C:\\Users\\victo\\OneDrive\\Documentos\\ProcessosSeletivos\\Quorum\\LegisTrack\\LegisTrack\\LegisTrack\\Repositories\\CsvRepository.cs",
-              "RelativeDocumentMoniker": "LegisTrack\\Repositories\\CsvRepository.cs",
-              "ToolTip": "C:\\Users\\victo\\OneDrive\\Documentos\\ProcessosSeletivos\\Quorum\\LegisTrack\\LegisTrack\\LegisTrack\\Repositories\\CsvRepository.cs",
-              "RelativeToolTip": "LegisTrack\\Repositories\\CsvRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "CsvRepositoryTests.cs",
+              "DocumentMoniker": "C:\\Users\\victo\\OneDrive\\Documentos\\ProcessosSeletivos\\Quorum\\LegisTrack\\LegisTrack\\LegisTrackTests\\Repositories\\CsvRepositoryTests.cs",
+              "RelativeDocumentMoniker": "LegisTrackTests\\Repositories\\CsvRepositoryTests.cs",
+              "ToolTip": "C:\\Users\\victo\\OneDrive\\Documentos\\ProcessosSeletivos\\Quorum\\LegisTrack\\LegisTrack\\LegisTrackTests\\Repositories\\CsvRepositoryTests.cs",
+              "RelativeToolTip": "LegisTrackTests\\Repositories\\CsvRepositoryTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T13:00:44.648Z",
+              "WhenOpened": "2025-02-03T18:59:16.945Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BIllServiceTests.cs",
-              "DocumentMoniker": "C:\\Users\\victo\\OneDrive\\Documentos\\ProcessosSeletivos\\Quorum\\LegisTrack\\LegisTrack\\LegisTrackTests\\BIllServiceTests.cs",
-              "RelativeDocumentMoniker": "LegisTrackTests\\BIllServiceTests.cs",
-              "ToolTip": "C:\\Users\\victo\\OneDrive\\Documentos\\ProcessosSeletivos\\Quorum\\LegisTrack\\LegisTrack\\LegisTrackTests\\BIllServiceTests.cs",
-              "RelativeToolTip": "LegisTrackTests\\BIllServiceTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "BillController.cs",
+              "DocumentMoniker": "C:\\Users\\victo\\OneDrive\\Documentos\\ProcessosSeletivos\\Quorum\\LegisTrack\\LegisTrack\\LegisTrack\\Controllers\\BillController.cs",
+              "RelativeDocumentMoniker": "LegisTrack\\Controllers\\BillController.cs",
+              "ToolTip": "C:\\Users\\victo\\OneDrive\\Documentos\\ProcessosSeletivos\\Quorum\\LegisTrack\\LegisTrack\\LegisTrack\\Controllers\\BillController.cs",
+              "RelativeToolTip": "LegisTrack\\Controllers\\BillController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T12:47:38.461Z",
+              "WhenOpened": "2025-02-03T18:12:30.916Z",
               "EditorCaption": ""
             }
           ]

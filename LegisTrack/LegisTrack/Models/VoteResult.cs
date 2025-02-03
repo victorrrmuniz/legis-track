@@ -1,4 +1,5 @@
 ﻿using CsvHelper.Configuration.Attributes;
+using LegisTrack.Enums;
 
 namespace LegisTrack.Models
 {
@@ -11,6 +12,6 @@ namespace LegisTrack.Models
         [Name("vote_id")]
         public long VoteId { get; set; }
         [Name("vote_type")]
-        public long VoteType { get; set; }
+        public VoteTypeEnum VoteType { get; set; }
     }
 }
